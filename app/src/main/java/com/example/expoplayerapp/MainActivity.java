@@ -100,8 +100,8 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
         // url of video which we are loading.
-//        String videoURL = "https://startburn-bucket.s3.us-east-2.amazonaws.com/post_video/StPnFbaLAhOK6G4uI8kUzUxtYFkktAdbAXXrXzWe.mp4";
-        String videoURL = "https://startburn-bucket.s3.us-east-2.amazonaws.com/post_video/ltIKRnBsHDahPrb6c5eYK9MApbAgVWFFada1CD3I.mp4";
+//     
+        String videoURL = "https://thegoatappvideos.s3.us-east-2.amazonaws.com/post_video/ltIKRnBsHDahPrb6c5eYK9MApbAgVWFFada1CD3I.mp4";
 
         DefaultLoadControl loadControl = new DefaultLoadControl
                 .Builder()
