@@ -100,8 +100,9 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
         // url of video which we are loading.
+        //sorry i can not share url.
 //     
-        String videoURL = "https://thegoatappvideos.s3.us-east-2.amazonaws.com/post_video/ltIKRnBsHDahPrb6c5eYK9MApbAgVWFFada1CD3I.mp4";
+        String videoURL = "any 90 degree video url(camera recorded in potrait)";
 
         DefaultLoadControl loadControl = new DefaultLoadControl
                 .Builder()
