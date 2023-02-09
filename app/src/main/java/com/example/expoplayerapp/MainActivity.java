@@ -99,10 +99,10 @@ public class MainActivity extends AppCompatActivity {
                                 return decoderInfos;
                             }
                         });
-        // url of video which we are loading.
+     
         //sorry i can not share url.
 //     
-        String videoURL = "https://thegoatappvideos.s3.us-east-2.amazonaws.com/post_video/ltIKRnBsHDahPrb6c5eYK9MApbAgVWFFada1CD3I.mp4";
+        String videoURL = "any camera recorded video video which has 90 degree rotation";
 
         DefaultLoadControl loadControl = new DefaultLoadControl
                 .Builder()
