@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
     //  java.lang.IllegalStateException
       //  at android.media.MediaCodec.native_dequeueOutputBuffer(Native Method)
         
-         String videoURL = "https://thegoatappvideos.s3.us-east-2.amazonaws.com/post_video/DZD4cjIkec5YBvx13nhQJebEGv5ljtBbWcsbq1E6.mp4";
+         String videoURL = "any 4096*2160 resolution video ";
 
 
         DefaultLoadControl loadControl = new DefaultLoadControl
