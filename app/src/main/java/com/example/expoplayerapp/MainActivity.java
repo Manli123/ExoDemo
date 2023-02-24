@@ -102,7 +102,15 @@ public class MainActivity extends AppCompatActivity {
      
         //sorry i can not share url.
 //     
-        String videoURL = "any camera recorded video video which has 90 degree rotation";
+        //for rotate issue on android 8.1 video 1811
+      //  String videoURL = "any camera recorded video video which has 90 degree rotation";
+        
+        //for MediaCodecVideoRenderer: Video codec error
+    //  java.lang.IllegalStateException
+      //  at android.media.MediaCodec.native_dequeueOutputBuffer(Native Method)
+        
+         String videoURL = "https://thegoatappvideos.s3.us-east-2.amazonaws.com/post_video/DZD4cjIkec5YBvx13nhQJebEGv5ljtBbWcsbq1E6.mp4";
+
 
         DefaultLoadControl loadControl = new DefaultLoadControl
                 .Builder()
